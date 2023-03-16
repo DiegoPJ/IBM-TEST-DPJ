@@ -1,4 +1,4 @@
-##pasos a seguir:
+## Pasos a seguir:
 1º descarga el repositorio, importalo ,compila el proyecto (clean install), ejecuta el script en tu mysql y ejecuta el comando en cmd apuntando a target :
 
 java -jar IBM-TEST-Diego-Pastor-Jimenez-0.0.1-SNAPSHOT.jar <id_proveedor>
