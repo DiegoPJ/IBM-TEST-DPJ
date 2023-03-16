@@ -1,5 +1,9 @@
 ## Pasos a seguir:
-1º descarga el repositorio, importalo ,compila el proyecto (clean install), ejecuta el script en tu mysql y ejecuta el comando en cmd apuntando a target :
+1º descarga el repositorio
+2º importalo 
+3º compila el proyecto (clean install)
+4º ejecuta el script en tu MySQL (script.sql)
+5º ejecuta el comando en cmd apuntando a target :
 
 java -jar IBM-TEST-Diego-Pastor-Jimenez-0.0.1-SNAPSHOT.jar <id_proveedor>
 te generará un txt con los productos de <id_proveedor> proveedor.
@@ -23,9 +27,4 @@ El fichero plano se generará en la misma carpeta con el nombre `proveedores_<cl
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-
-## Script de base de datos
-
-El script para crear la base de datos e insertar datos de ejemplo está ubicado en la raíz del repositorio y se llama `script.sql`.
-
 
